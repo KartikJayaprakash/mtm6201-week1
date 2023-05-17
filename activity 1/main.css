@@ -1,0 +1,40 @@
+/* Set image width to be responsive and not over 150px wide */
+img {
+    max-width: 100%;
+    width: auto;
+    max-height: 150px;
+  }
+
+  .heading{
+    color: white;
+    background-color: black;
+  }
+  
+  /* Wrap bio text around the image */
+  .box {
+    float: left;
+    margin-right: 20px;
+  }
+  
+  /* Style description list */
+  dl {
+    margin-top: 20px;
+  }
+  
+  /* Make description list terms bold and adjust font size */
+  dl dt {
+    font-weight: bold;
+    font-size: 1.15em;
+    display: inline-block;
+  }
+  
+  /* Adjust description list data */
+  dl dd {
+    margin-left: 0;
+  }
+  
+  /* Reset default padding for paragraphs within topic containers */
+  .topic-containers p {
+    margin: 20px;
+  }
+  
